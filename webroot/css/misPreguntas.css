@@ -1,0 +1,98 @@
+body{
+	
+	background-color: #2b2020;		
+
+}
+
+
+div#container{
+
+	background-position:  top center;
+  	background-repeat: no-repeat;
+  	background-image: url(../img/index/fondo.png);
+  	height: 1500px;
+  	width: 960px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+/******* APARTADO CABECERA *********/
+div#head{
+	background-position: top-center;
+	margin-left: 46px;
+	margin-right: auto;
+	background-image: url(../img/index/cabecera.png);
+  	background-repeat: no-repeat;
+  	height: 192px;
+  	margin-bottom: 15px;
+}
+
+div#buscador{
+background-image: url(../img/index/fondogris.png);
+	background-repeat: no-repeat;
+	margin-top: 128.3px;
+	margin-left: 558px;
+	height: 44px;
+	float: left;
+}
+
+/******* APARTADO BARRA DE NAVEGACION *********/
+div#menu{
+	background-position:  center center;	
+  	background-repeat: no-repeat;
+  	background-image: url(../img/index/barraMenu.png);
+  	height: 32px;
+  	margin-bottom: 32px;
+}
+
+
+
+div#Navegador{
+	margin-top: -10px;
+	font-family: verdana;
+	font-size: 16pt;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+	margin-left: 60px;
+	width: 960px;
+	float:left;
+}
+
+div#Navegador .nav > li {
+	margin-right: 96px;
+	float:left;
+}
+
+div#Navegador .nav li a {
+	
+	background-color: transparent;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+div#MisPreguntas{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:819px;
+}
+
+fieldset{
+	border-style:solid ;
+	background-color: #3a0000;
+	margin-bottom: 10px;
+	border-width: 5px; 
+	border-color: #610e0e;
+}
+
+img#eliminarImagen{
+	max-width: 30px;
+	max-height: 30px;
+	margin-top: -7px;
+}
+
+

@@ -1,0 +1,288 @@
+body{
+	
+	background-color: #2b2020;		
+
+}
+
+
+div#container{
+
+	background-position:  top center;
+  	background-repeat: no-repeat;
+  	background-image: url(../img/index/fondo.png);
+  	height: 1500px;
+  	width: 960px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+/******* APARTADO CABECERA *********/
+div#head{
+	background-position: top-center;
+	margin-left: 46px;
+	margin-right: auto;
+	background-image: url(../img/index/cabecera.png);
+  	background-repeat: no-repeat;
+  	height: 192px;
+  	margin-bottom: 15px;
+}
+
+div#buscador{
+background-image: url(../img/index/fondogris.png);
+	background-repeat: no-repeat;
+	margin-top: 128.3px;
+	margin-left: 558px;
+	height: 44px;
+	float: left;
+}
+
+/******* APARTADO BARRA DE NAVEGACION *********/
+div#menu{
+	background-position:  center center;	
+  	background-repeat: no-repeat;
+  	background-image: url(../img/index/barraMenu.png);
+  	height: 32px;
+  	margin-bottom: 32px;
+}
+
+
+div#Navegador{
+	margin-top: -10px;
+	font-family: verdana;
+	font-size: 16pt;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+	margin-left: 60px;
+	width: 960px;
+	float: left;
+}
+
+div#Navegador .nav > li {
+	margin-right: 96px;
+	float:left;
+}
+
+div#Navegador .nav li a {
+	
+	background-color: transparent;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+
+
+
+/******* APARTADO PRESENTACION *********/
+
+div#presentacion{
+	height: 388px; 
+	width: 561px;
+	margin-left: 60px;
+	background-image: url(../img/index/PresentacionFondo.png);
+	background-repeat: no-repeat;
+	margin-bottom: 69px;
+	float: left;
+
+}
+
+p#Bienvenidos{
+	font-family: Verdana;
+	font-size: 20pt;
+	text-align: center;
+	margin-top: -2px;
+}
+
+form#tablaPresentacion{
+	margin-left:-6.0px ;
+	margin-top: -5px;
+	width: 560px; 
+	color:white ; 
+	font-family: Verdana;
+}
+
+img#Cocodrilo{
+	margin-top: -310px;
+	margin-left: 300px;
+}
+
+img#Logo{
+	margin-top: -40px;
+	margin-left: 57px;
+}
+
+pre{
+	margin-left: 10px;
+	width: 400px;
+	background-color: transparent;
+	border-color: transparent;
+	color: white; 
+	font-family: Verdana;
+	font-size: 13pt;
+
+}
+
+/******* APARTADO LOGIN *********/
+
+div#login{
+	margin-top: 20px;
+	margin-left: 670px;
+	width: 228px;
+	height: 268px;
+	background-image: url(../img/index/loginFondo.png);
+	margin-bottom: 30px;
+}
+
+img#loginImagen{
+	margin-top: 5px;
+}
+
+p#Usuario{
+	font-family: verdana;
+	font-size: 14pt;
+ 	color: white;
+ 	margin-top: 30px;
+ 	margin-left: 10px;
+}
+
+p#Pass{
+	font-family: verdana;
+	font-size: 14pt;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+input#User{
+	margin-bottom: 5px;
+	font-family: verdana;
+	width: 105px;
+	margin-left: 113px;
+	margin-top: -10px;
+	color: black;
+}
+
+input#Password{
+	margin-bottom: 10px;
+	width: 105px;
+	margin-left: 113px;
+	margin-top: -10px;
+	color: black;
+}
+
+.submit{
+	font-family: verdana;
+	margin-left: 136px;
+	color:black;
+}
+
+
+/******* APARTADO PREGUNTAS *********/
+			
+
+div#preguntas{
+
+	width: 819px;
+	margin-left: auto;
+	margin: auto;
+	background-image: url(../img/index/preguntasRecientes.png);
+  	background-repeat: no-repeat;
+  	background-position: bottom;
+  	height: 725px;
+  	margin-top: 200px;
+  	
+  	
+}
+
+p#PreguntasRecientes{
+
+	font-family: Verdana;
+	font-size: 28pt;
+	text-align: center;
+	margin-top: -2px;
+}
+
+form#tablaPreguntas{
+	
+	margin-left:-6.0px ;
+	margin-top: -10px;
+	width: 819px; 
+	color:white ; 
+	font-family: Verdana;
+	
+}
+
+fieldset#preguntasUsuarios{
+	margin-left: 10px;
+	background-color:transparent; 
+	height: 100px;
+	
+	border-style:solid ;
+	border-bottom-color: #610e0e;
+	border-top-color: #610e0e;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	
+	border-width: 2px; 
+	margin-bottom: 50px;
+}
+
+
+/*
+
+a#colorPreguntas{
+	margin-left: 10px;
+	color: white;
+	background-color: transparent;
+	display: block;
+	text-decoration:none;
+}
+*/
+
+
+
+
+/*
+///////////////////////// RESPONSIVE COMENTADO /////////////////////////////////////////////////////////////
+
+/* Extra small devices (phones, less than 768px) 
+
+
+
+/* Small devices (tablets, 768px and up) 
+/* container width 750px
+
+@media (min-width: 768px) {
+	body{
+
+		background-color: red;
+
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) 
+/* container width 970px
+
+@media (min-width: 992px) {
+	body{
+		background-color: yellow;
+	}
+	
+}
+
+/* Large devices (large desktops, 1200px and up) 
+/* container width 1170px
+
+@media (min-width: 1200px) {
+	body{
+		
+		background-color: green;
+	}	
+
+}
+
+*/

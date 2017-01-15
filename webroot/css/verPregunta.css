@@ -1,0 +1,259 @@
+body{
+	
+	background-color: #2b2020;	
+
+     	
+
+}
+
+
+div#container{
+
+	background-position:  top center;
+  	background-repeat: no-repeat;
+  	background-image: url(../img/index/fondo.png);
+  	height: 1500px;
+  	width: 960px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+/******* APARTADO CABECERA *********/
+div#head{
+	background-position: top-center;
+	margin-left: 46px;
+	margin-right: auto;
+	background-image: url(../img/index/cabecera.png);
+  	background-repeat: no-repeat;
+  	height: 192px;
+  	margin-bottom: 15px;
+}
+
+div#buscador{
+background-image: url(../img/index/fondogris.png);
+	background-repeat: no-repeat;
+	margin-top: 128.3px;
+	margin-left: 558px;
+	height: 44px;
+	float: left;
+}
+
+/******* APARTADO BARRA DE NAVEGACION *********/
+div#menu{
+	background-position:  center center;	
+  	background-repeat: no-repeat;
+  	background-image: url(../img/index/barraMenu.png);
+  	height: 32px;
+  	margin-bottom: 32px;
+}
+
+
+div#Navegador{
+	margin-top: -10px;
+	font-family: verdana;
+	font-size: 16pt;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+	margin-left: 60px;
+	width: 960px;
+	float: left;
+}
+
+div#Navegador .nav > li {
+	margin-right: 96px;
+	float:left;
+}
+
+div#Navegador .nav li a {
+	
+	background-color: transparent;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+/******* APARTADO AVATAR PREGUNTA*********/
+
+div#Avatar{
+	background-repeat: no-repeat;
+  	background-image: url(../img/verPreguntas/avatarFondo.png);
+  	height: 306px;
+  	width: 193px;
+  	margin-left: 80px;
+  	float: left;
+}
+
+p#Autor{
+	font-family: Verdana;
+	font-size: 20pt;
+	text-align: center;
+	margin-top: -2px;
+}
+
+img#avatarImag{
+	margin-top: 10px;
+	margin-left: 35px;
+}
+
+p#nombreAutor{
+	font-family: Verdana;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14pt;
+}
+
+/******* APARTADO PREGUNTA *********/
+
+div#Pregunta{
+	background-repeat: no-repeat;
+  	background-image: url(../img/verPreguntas/preguntaFondo.png);
+  	height: 388px;
+  	width: 561px;
+  	margin-left: 330px;
+}
+
+p#tituloPregunta{
+	font-family: Verdana;
+	font-size: 14pt;
+	margin-top: 15px;
+	text-align: center;
+	
+}
+
+form#contenidoPregunta{
+	font-family: Verdana;
+	color: white;	
+}
+
+pre#pre1{
+	width: 561px;
+	background-color: transparent;
+	border-color: transparent;
+	color: white; 
+	font-family: Verdana;
+	font-size: 11.5pt;
+}
+
+img#Logo{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+/******* APARTADO BARRA RESPUESTAS *********/
+
+div#barraRespuesta{
+	background-position:  center center;	
+  	background-repeat: no-repeat;
+  	background-image: url(../img/verPreguntas/barraRespuestas.png);
+  	height: 32px;
+  	margin-top: 19px;
+}
+
+p#contenidoBarraRespuesta{
+	font-family: Verdana;
+	font-size: 17pt;
+	margin-left: 74px;
+}
+
+/******* APARTADO AVATAR RESPUESTAS*********/
+
+div#fondoAvatarRespuesta{
+	background-repeat: no-repeat;
+  	background-image: url(../img/verPreguntas/fondoAvatarRespuesta.png);
+  	height: 204px;
+  	width: 140px;
+  	margin-top: 20px;
+  	margin-left: 69px;
+  	float: left;	
+}
+
+
+img#avatarRespuesta{
+	
+  	height: 101px;
+  	width: 80px;
+  	margin-top: 45px;
+  	margin-left: 35px;
+}
+
+p#nombreAvatarRespuesta{
+	font-family: Verdana;
+	font-size: 11pt;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/******* APARTADO RESPUESTA *********/
+
+div#fondoRespuesta{
+	background-repeat: no-repeat;
+  	background-image: url(../img/verPreguntas/fondoRespuesta.png);
+  	height: 215px;
+  	width: 695px;
+  	margin-top: 20px;
+  	margin-left: 220px;
+}
+img#eliminarImagen{
+	max-width: 30px;
+	max-height: 30px;
+	margin-left: 570px;
+}
+
+
+
+form#contenidoRespuesta{
+	font-family: Verdana;
+	color: white;	
+}
+
+pre#pre2{
+	width: 670px;
+	background-color: transparent;
+	border-color: transparent;
+	color: white; 
+	font-family: Verdana;
+	font-size: 11.5pt;
+	margin-top: -14px;
+}
+
+img#meGusta{
+	background-color: transparent;
+	height: 32px;
+	width: 29px;
+	margin-left: 450px;
+	margin-top: -50px;
+}
+
+p#numeroMeGusta{
+	font-family: Verdana;
+	font-size: 15pt;
+	margin-top: -26px;
+	margin-left: 60px;
+}
+
+img#noMeGusta{
+	height: 32px; 
+	width: 29px;
+	margin-top: -65px;
+	margin-left: 540px;
+}
+
+p#numeroNoMeGusta{
+	font-family: Verdana;
+	font-size: 15pt;
+	margin-top: -26px;
+	margin-left: 70px;
+}
+
+form#numeroPag{
+	font-family: Verdana;
+	font-size: 11.5pt;
+	margin-top: 20px;
+	margin-left: 760px;
+}
+
+
+

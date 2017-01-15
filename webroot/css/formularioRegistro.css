@@ -1,0 +1,139 @@
+body{
+	
+	background-color: #2b2020;		
+
+}
+
+
+div#container{
+
+	background-position:  top center;
+  	background-repeat: no-repeat;
+  	background-image: url(../img/crearUsuario/fondo.png);
+  	height: 1500px;
+  	width: 960px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+/******* APARTADO CABECERA *********/
+div#head{
+	background-position: top-center;
+	margin-left: 46px;
+	margin-right: auto;
+	background-image: url(../img/crearUsuario/cabecera.png);
+  	background-repeat: no-repeat;
+  	height: 192px;
+  	margin-bottom: 15px;
+}
+
+div#buscador{
+background-image: url(../img/crearUsuario/fondogris.png);
+	background-repeat: no-repeat;
+	margin-top: 128.3px;
+	margin-left: 558px;
+	height: 44px;
+	float: left;
+}
+
+/******* APARTADO BARRA DE NAVEGACION *********/
+div#menu{
+	background-position:  center center;	
+  	background-repeat: no-repeat;
+  	background-image: url(../img/crearUsuario/barraMenu.png);
+  	height: 32px;
+  	margin-bottom: 32px;
+}
+
+
+div#Navegador{
+	margin-top: -10px;
+	font-family: verdana;
+	font-size: 16pt;
+	color: white;
+	border-color: transparent;
+	background: transparent;
+	margin-left: 60px;
+	width: 960px;
+	float: left;
+}
+
+div#Navegador .nav > li {
+	margin-right: 96px;
+	float:left;
+}
+
+div#Navegador .nav li a {
+	
+	background-color: transparent;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+
+div#formulario{
+	margin-left: 100px;
+	height: 458px;
+	width: 662px;
+	background-image: url(../img/crearUsuario/PresentacionFondo.png);
+	background-repeat: no-repeat;
+}
+
+p#NuevoUsuario{
+	color:white;
+	font-family:verdana;
+	font-size:14pt;
+	text-align:center;
+}
+
+input#nickUsuario{
+	margin-left: 76px;
+	color:black;
+}
+
+input#nombreUsuario{
+	margin-left: 54px;
+	color:black;
+}
+
+
+input#apellidosUsuario{
+	margin-left: 50px;
+	color:black;
+}
+
+input#passwordUsuario{
+	margin-left: 40px;
+	margin-bottom: 20px;
+	color:black;
+}
+
+.submit{
+	margin-top: -20px;
+	margin-left: 150px;
+	color:black;
+}
+/*
+
+form#UsuarioAddForm{
+	margin-left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+p{
+	color: white;
+	font-family: verdana;
+	
+}
+*/
