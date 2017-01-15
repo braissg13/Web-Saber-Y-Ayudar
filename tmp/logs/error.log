@@ -1,0 +1,1043 @@
+2015-12-04 20:24:03 Error: [MissingControllerException] Controller class AController could not be found.
+Exception Attributes: array (
+  'class' => 'AController',
+  'plugin' => NULL,
+)
+Request URL: /a
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-04 23:51:51 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\brais\Desktop\UniServerZ\www\app\View\Preguntas\mis_preguntas.ctp, line 85]
+2015-12-04 23:51:51 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /preguntas/misPreguntas/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 85, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 85, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 00:54:16 Error: [MissingControllerException] Controller class ComentariosController could not be found.
+Exception Attributes: array (
+  'class' => 'ComentariosController',
+  'plugin' => NULL,
+)
+Request URL: /comentarios/add
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 00:57:52 Error: [MissingActionException] Action PreguntasController::ver1() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'ver1',
+)
+Request URL: /preguntas/ver1
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-05 02:13:16 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:17:28 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:18:12 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:18:13 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:18:16 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:24:18 Error: [MissingControllerException] Controller class RecipesController could not be found.
+Exception Attributes: array (
+  'class' => 'RecipesController',
+  'plugin' => NULL,
+)
+Request URL: /recipes/view/id:7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 02:24:56 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/id:7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar()
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:25:24 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:25:52 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /respuestas/eliminar/7
+Stack Trace:
+#0 [internal function]: RespuestasController->eliminar('7')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:33:54 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /preguntas/eliminar/1
+Stack Trace:
+#0 [internal function]: PreguntasController->eliminar('1')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:35:58 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /preguntas/eliminar/1
+Stack Trace:
+#0 [internal function]: PreguntasController->eliminar('1')
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 02:38:36 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\Users\brais\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 116]
+2015-12-05 02:38:36 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 116, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 116, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 02:48:03 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 34]
+2015-12-05 02:48:03 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /respuestas/eliminar/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 34, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 34, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 02:48:27 Error: Fatal Error (4): syntax error, unexpected 'print_r' (T_STRING) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 34]
+2015-12-05 02:48:27 Error: [FatalErrorException] syntax error, unexpected 'print_r' (T_STRING)
+Request URL: /respuestas/eliminar/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 34, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 34, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 02:54:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idautor' at line 1
+Request URL: /respuestas/eliminar/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('idautor', Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('idautor', Array, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('idautor', Array, Array)
+#4 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('idautor', Array, Object(Respuesta))
+#5 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Model->__call('idautor', Array)
+#6 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Respuesta->idautor('Select idautor ...')
+#7 [internal function]: RespuestasController->eliminar('6')
+#8 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#9 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#11 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-05 02:56:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idautor' at line 1
+Request URL: /respuestas/eliminar/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('idautor', Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('idautor', Array, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('idautor', Array, Array)
+#4 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('idautor', Array, Object(Respuesta))
+#5 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Model->__call('idautor', Array)
+#6 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Respuesta->idautor('SELECT idautor ...')
+#7 [internal function]: RespuestasController->eliminar('6')
+#8 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#9 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#11 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-05 02:56:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idautor' at line 1
+Request URL: /respuestas/eliminar/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('idautor', Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('idautor', Array, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('idautor', Array, Array)
+#4 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('idautor', Array, Object(Respuesta))
+#5 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Model->__call('idautor', Array)
+#6 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Respuesta->idautor('SELECT idautor ...')
+#7 [internal function]: RespuestasController->eliminar('6')
+#8 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#9 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#11 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-05 02:57:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'idautor' at line 1
+Request URL: /respuestas/eliminar/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('idautor', Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('idautor', Array, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('idautor', Array, Array)
+#4 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('idautor', Array, Object(Respuesta))
+#5 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Model->__call('idautor', Array)
+#6 C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php(33): Respuesta->idautor('SELECT idautor ...')
+#7 [internal function]: RespuestasController->eliminar('6')
+#8 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RespuestasController), Array)
+#9 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespuestasController), Object(CakeRequest))
+#11 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-05 03:12:39 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\brais\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 116]
+2015-12-05 03:12:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 116, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 116, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 15:52:52 Error: [MissingActionException] Action PreguntasController::escoger_seccion() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'escoger_seccion',
+)
+Request URL: /preguntas/escoger_seccion
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-05 17:01:32 Error: [MissingViewException] View file "Usuarios\vernick.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Usuarios\\vernick.ctp',
+)
+Request URL: /usuarios/vernick
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 17:05:50 Error: [MissingViewException] View file "Usuarios\vernick.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Usuarios\\vernick.ctp',
+)
+Request URL: /usuarios/vernick/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#4 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-05 17:11:04 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\UsuariosController.php, line 26]
+2015-12-05 17:11:04 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /usuarios/vernick/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 26, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 26, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 17:21:04 Error: Fatal Error (64): Cannot use [] for reading in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\UsuariosController.php, line 28]
+2015-12-05 17:21:04 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /usuarios/vernick/6
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\\Users\\brais\\...', 28)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\\Users\\brais\\...', 28, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\\Users\\brais\\...', 28, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 17:51:17 Error: Fatal Error (1): Call to undefined method RespuestasController::findAllByIdpregunta() in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 48]
+2015-12-05 17:51:17 Error: [FatalErrorException] Call to undefined method RespuestasController::findAllByIdpregunta()
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\brais\\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\brais\\...', 48, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\brais\\...', 48, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:01:40 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 54]
+2015-12-05 18:01:40 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 54, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 54, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:02:38 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 53]
+2015-12-05 18:02:38 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:03:12 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 53]
+2015-12-05 18:03:12 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:03:13 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 53]
+2015-12-05 18:03:13 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:07:24 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 53]
+2015-12-05 18:07:24 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 53, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:09:25 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 55]
+2015-12-05 18:09:25 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:09:26 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 55]
+2015-12-05 18:09:26 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:09:29 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 55]
+2015-12-05 18:09:29 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:09:34 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 55]
+2015-12-05 18:09:34 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:09:52 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 55]
+2015-12-05 18:09:52 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:10:08 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 55]
+2015-12-05 18:10:08 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /respuestas/find/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 55, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 18:35:12 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\Users\brais\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 131]
+2015-12-05 18:35:12 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 131)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 131, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 131, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 19:25:53 Error: [MissingActionException] Action PreguntasController::misPreguntas5() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'misPreguntas5',
+)
+Request URL: /preguntas/misPreguntas5
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-05 19:50:37 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:40 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:43 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:46 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:49 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:51 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:54 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 19:50:57 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-05 20:06:07 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Users\brais\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 123]
+2015-12-05 20:06:07 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\brais\\...', 123)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\brais\\...', 123, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\brais\\...', 123, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-05 20:35:01 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\brais\Desktop\UniServerZ\www\app\Controller\RespuestasController.php, line 51]
+2015-12-05 20:35:01 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /respuestas/votopositivo/11/1/7
+Stack Trace:
+#0 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\brais\\...', 51, Array)
+#2 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\brais\\...', 51, Array)
+#3 C:\Users\brais\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 16:59:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3653): Model->setSource('preguntas')
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(23): Model->find('all')
+#8 [internal function]: PreguntasController->index()
+#9 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#10 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#12 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-12-06 17:07:27 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 17:07:30 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 17:07:32 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 17:07:35 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 17:07:38 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 17:07:41 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 17:25:03 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php, line 30]
+2015-12-06 17:25:03 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 30, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 30, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 17:25:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:27:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:27:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:27:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:27:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:27:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:27:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pregunta.' in 'field list'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Pregunta), Array)
+#5 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Datasource\DboSource.php(600): Model->find('first', Array)
+#7 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Pregunta))
+#8 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Model->__call('findById', Array)
+#9 C:\Users\Isma\Desktop\UniServerZ\www\app\Controller\PreguntasController.php(30): Pregunta->findById('7', Array)
+#10 [internal function]: PreguntasController->ver('7')
+#11 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PreguntasController), Array)
+#12 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#14 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-06 17:28:25 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\Isma\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 157]
+2015-12-06 17:28:25 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 157)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 157, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 157, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 18:06:50 Error: Fatal Error (4): syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in [C:\Users\Isma\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 68]
+2015-12-06 18:06:50 Error: [FatalErrorException] syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 68, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 68, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 19:18:17 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Isma\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 157]
+2015-12-06 19:18:17 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 157)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 157, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 157, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 19:19:08 Error: Fatal Error (1): Call to undefined method View::query() in [C:\Users\Isma\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 97]
+2015-12-06 19:19:08 Error: [FatalErrorException] Call to undefined method View::query()
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Isma\\D...', 97)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Isma\\D...', 97, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Isma\\D...', 97, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 19:19:32 Error: Fatal Error (1): Call to undefined function query() in [C:\Users\Isma\Desktop\UniServerZ\www\app\View\Preguntas\ver.ctp, line 97]
+2015-12-06 19:19:32 Error: [FatalErrorException] Call to undefined function query()
+Request URL: /preguntas/ver/7
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Isma\\D...', 97)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Isma\\D...', 97, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Isma\\D...', 97, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 19:57:27 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [C:\Users\Isma\Desktop\UniServerZ\www\app\Model\Pregunta.php, line 29]
+2015-12-06 19:57:27 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /preguntas/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 29, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 29, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 19:58:44 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [C:\Users\Isma\Desktop\UniServerZ\www\app\Model\Pregunta.php, line 35]
+2015-12-06 19:58:44 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /preguntas/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 35, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 35, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 19:58:53 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [C:\Users\Isma\Desktop\UniServerZ\www\app\Model\Usuario.php, line 26]
+2015-12-06 19:58:53 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /preguntas/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 26, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 26, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 20:00:03 Error: [MissingControllerException] Controller class NuevapreguntaController could not be found.
+Exception Attributes: array (
+  'class' => 'NuevapreguntaController',
+  'plugin' => NULL,
+)
+Request URL: /nuevapregunta
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 20:01:53 Error: Fatal Error (4): syntax error, unexpected '(' in [C:\Users\Isma\Desktop\UniServerZ\www\app\Model\Pregunta.php, line 35]
+2015-12-06 20:01:53 Error: [FatalErrorException] syntax error, unexpected '('
+Request URL: /preguntas/
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 35, Array)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Isma\\D...', 35, Array)
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-06 20:58:34 Error: es-es
+2015-12-06 20:58:40 Error: [MissingViewException] View file "Preguntas\idioma.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Preguntas\\idioma.ctp',
+)
+Request URL: /preguntas/idioma/eng
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#4 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-06 21:01:13 Error: es-es
+2015-12-06 21:01:57 Error: es-es
+2015-12-06 21:02:00 Error: es-es
+2015-12-06 21:02:01 Error: es-es
+2015-12-06 21:02:02 Error: es-es
+2015-12-06 21:02:03 Error: es-es
+2015-12-06 21:02:03 Error: es-es
+2015-12-06 21:02:04 Error: es-es
+2015-12-06 21:02:04 Error: es-es
+2015-12-06 21:02:05 Error: es-es
+2015-12-06 21:02:06 Error: es-es
+2015-12-06 21:02:07 Error: es-es
+2015-12-06 21:02:12 Error: es-es
+2015-12-06 21:02:14 Error: es-es
+2015-12-06 21:02:14 Error: es-es
+2015-12-06 21:02:15 Error: es-es
+2015-12-06 21:02:16 Error: es-es
+2015-12-06 21:02:18 Error: es-es
+2015-12-06 21:02:19 Error: es-es
+2015-12-06 21:02:20 Error: es-es
+2015-12-06 21:04:08 Error: es-es
+2015-12-06 21:04:09 Error: es-es
+2015-12-06 21:04:10 Error: es-es
+2015-12-06 21:04:50 Error: es-es
+2015-12-06 21:04:52 Error: es-es
+2015-12-06 21:04:53 Error: es-es
+2015-12-06 21:04:53 Error: es-es
+2015-12-06 21:04:55 Error: es-es
+2015-12-06 21:04:57 Error: es-es
+2015-12-06 21:04:57 Error: es-es
+2015-12-06 21:04:58 Error: es-es
+2015-12-06 21:04:58 Error: es-es
+2015-12-06 21:04:59 Error: es-es
+2015-12-06 21:04:59 Error: es-es
+2015-12-06 21:05:00 Error: es-es
+2015-12-06 21:05:19 Error: es-es
+2015-12-06 21:05:34 Error: es-es
+2015-12-06 21:05:38 Error: [MissingControllerException] Controller class EngController could not be found.
+Exception Attributes: array (
+  'class' => 'EngController',
+  'plugin' => NULL,
+)
+Request URL: /eng
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 21:05:45 Error: [MissingControllerException] Controller class IdiomaController could not be found.
+Exception Attributes: array (
+  'class' => 'IdiomaController',
+  'plugin' => NULL,
+)
+Request URL: /idioma/eng
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 21:10:06 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:10:11 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:11:19 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:11:36 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:12:51 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:12:56 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:13:23 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:13:24 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:13:49 Error: [MissingActionException] Action PreguntasController::changeLanguag() could not be found.
+Exception Attributes: array (
+  'controller' => 'PreguntasController',
+  'action' => 'changeLanguag',
+)
+Request URL: /preguntas/changeLanguag/esp
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Isma\Desktop\UniServerZ\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PreguntasController), Object(CakeRequest))
+#2 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-06 21:14:08 Error: [MissingControllerException] Controller class ChangeLanguagController could not be found.
+Exception Attributes: array (
+  'class' => 'ChangeLanguagController',
+  'plugin' => NULL,
+)
+Request URL: /changeLanguag/eng
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-06 21:14:15 Error: [MissingControllerException] Controller class ChangeLanguageController could not be found.
+Exception Attributes: array (
+  'class' => 'ChangeLanguageController',
+  'plugin' => NULL,
+)
+Request URL: /changeLanguage/eng
+Stack Trace:
+#0 C:\Users\Isma\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-09 18:27:41 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin
+Stack Trace:
+#0 C:\Users\BRAIS\Desktop\UniServerZ\www\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
